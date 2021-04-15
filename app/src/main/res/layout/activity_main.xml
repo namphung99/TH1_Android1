@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/so1"
+        android:hint="Nhap so thu 1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/so2"
+        android:hint="Nhap so thu 2"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/Cong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cộng"/>
+        <RadioButton
+            android:id="@+id/Tru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trừ"/>
+        <RadioButton
+            android:id="@+id/Nhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhân"/>
+        <RadioButton
+            android:id="@+id/Chia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chia"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"/>
+</LinearLayout>
